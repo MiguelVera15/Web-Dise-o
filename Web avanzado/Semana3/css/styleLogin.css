@@ -1,0 +1,72 @@
+/* Here we will set the font and background. */
+body {
+    margin: 0;
+    padding: 0;
+    background: #3bf177;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 19px;
+    line-height: 18px;
+  }
+  
+  /* Now we will prepare our box. */
+  .box {
+    border-radius: 150px;
+    width: 600px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #06ae3e;
+    text-align: center;
+  }
+  
+  /* With the box finished we can continue with the "Login" text. */
+  .box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+  }
+  
+  /* Now we need to configure our inputs. */
+  .box input[type = "text"],.box input[type = "password"] {
+    border: 0;
+    background: none;
+    
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #34db37;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  
+  .box input[type = "text"]:focus, .box input[type = "password"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+  }
+  
+  .box input[type = "submit"] {
+    border: 0;
+    background: none;
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ECC71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 1s;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .box input[type = "button"]:hover {
+    background: #2ECC71;
+  }

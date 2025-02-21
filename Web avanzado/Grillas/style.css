@@ -1,0 +1,78 @@
+.container {
+    
+    background-color: rgb(213, 226, 230);
+    display: grid;
+    grid-template-columns: 150px 150px 150px; 
+    grid-template-rows: 150px 150px 150px;
+    
+    place-content: center;
+    padding: 20px;
+    margin: 100px;
+  }
+  
+  /* Estilo general de los ítems */
+  .item {
+    
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #333;
+    font-weight: bold;
+  }
+
+
+  /* Ajuste para las imágenes dentro de los cuadros */
+.item img {
+    width: 100%;
+    height: 100%;
+    
+    
+  }
+  
+  
+  /* Definición de posiciones específicas */
+  .item-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+    
+  }
+  
+  .item-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    
+  }
+  
+  .item-3 {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    
+  }
+  
+  .item-4 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    
+  }
+  
+  .item-5 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    
+  }
+  
+  .item-6 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    
+  }
+  
+  .item-7 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    
+  }
+  

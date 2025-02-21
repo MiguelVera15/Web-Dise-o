@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e8cb9a;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+h1 {
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50PX;
+}
+
+
+/* Estilos de la tarjeta - Más grande */
+.card {
+    background: #b88b5c;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    width: 85%;
+    height: 250px;
+    display: flex;
+    flex-direction: row; /* Imagen - Texto - Botón */
+    align-items: center;
+    justify-content: space-between; /* Distribución uniforme */
+    gap: 20px;
+}
+
+/* Imagen más grande */
+.card img {
+    width: 230px;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Contenedor de texto: organiza h2 arriba y p abajo */
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex-grow: 1; /* Hace que ocupe el espacio disponible */
+}
+
+/* Título */
+.card h2 {
+    margin: 0;
+    color: #c0392b;
+    font-size: 24px;
+}
+
+/* Texto */
+.card p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+    padding-right: 40px;
+}
+
+/* Botón a la derecha */
+.card-button {
+    background-color: #6c3b2a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration:none ;
+    
+}
+
+/* Efecto hover */
+.card-button:hover {
+    background-color: #a93226;
+}
+
+
+
+/* Ajuste del contenedor para centrar mejor */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #d0ab7a;
+    padding: 30px;
+    margin-top: ppx;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    background: linear-gradient(45deg, #333, #555);
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f4a261;
+}
+
+/* Contenedor fluido para centrar los enlaces */
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Estilos de los enlaces */
+.navbar-brand {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Efecto hover */
+.navbar-brand:hover {
+    color: #f4a261;
+}
+
+.img-update{
+    height: 25%;
+    width: 25%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+.card-update {
+    background: #b88b5c;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    width: 85%;
+    height: 250px;
+    display: flex;
+    flex-direction: row; /* Imagen - Texto - Botón */
+    align-items: center;
+    justify-content: space-between; /* Distribución uniforme */
+    gap: 20px;
+}
+
+.footer {
+    background: linear-gradient(45deg, #333, #555);
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f4a261;
+}
+
